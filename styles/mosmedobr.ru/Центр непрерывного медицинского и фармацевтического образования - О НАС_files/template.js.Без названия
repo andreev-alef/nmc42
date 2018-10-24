@@ -1,0 +1,42 @@
+function setLeftColumn()
+{
+	var height = $(window).height() ;
+	$(".menucolumn").css("min-height", height + "px");
+	
+	var marginSearch = $(window).height() - $(".sidecolumn-toppart").outerHeight() - $(".sidecolumn-bottompart").outerHeight() - 60;
+	
+	if(marginSearch > 0)
+		$(".sidecolumn-bottompart").css("margin-top", marginSearch + "px");
+}
+
+function setFixedColumn()
+{
+	if($(".side-nav ul.sf-menu li ul").length == 0)
+	{
+		var freeSpaceHeight = $(window).height() - $(".sidecolumn-bottompart").outerHeight() - $(".sidecolumn-toppart").outerHeight();
+		
+		if(freeSpaceHeight > 0)
+			$(".menucolumn, .content").addClass("fixed");
+		else 
+			$(".menucolumn, .content").removeClass("fixed");
+		
+	}
+}
+
+$(function(){
+	setLeftColumn();
+	
+	setFixedColumn();
+
+	$(".shopping-cart-icon").click(function(e)
+	{
+		$(this).parent().find(".shoppingcart-full").toggle();
+		
+		e.preventDefault();
+	});
+	
+	$(window).resize(function() {
+		setLeftColumn();
+		setFixedColumn();
+	});
+});
