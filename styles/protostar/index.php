@@ -111,7 +111,7 @@ if ($this->params->get('logoFile')) {
 <html lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
     <head>
         <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
-        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
     <jdoc:include type="head" />
 </head>
 <body class="site <?php
@@ -130,17 +130,17 @@ echo $option
             <header class="header" role="banner">
                 <div class="header-inner clearfix">
                     <a class="brand pull-left" href="<?php echo $this->baseurl; ?>/">
-<?php echo $logo; ?>
-<?php if ($this->params->get('sitedescription')) : ?>
-    <?php echo '<div class="site-description">' . htmlspecialchars($this->params->get('sitedescription'), ENT_COMPAT, 'UTF-8') . '</div>'; ?>
-<?php endif; ?>
+                        <?php echo $logo; ?>
+                        <?php if ($this->params->get('sitedescription')) : ?>
+                            <?php echo '<div class="site-description">' . htmlspecialchars($this->params->get('sitedescription'), ENT_COMPAT, 'UTF-8') . '</div>'; ?>
+                        <?php endif; ?>
                     </a>
                     <div class="header-search pull-right">
                         <jdoc:include type="modules" name="position-0" style="none" />
                     </div>
                 </div>
             </header>
-      <?php if ($this->countModules('position-1')) : ?>
+            <?php if ($this->countModules('position-1')) : ?>
                 <nav class="navigation" role="navigation">
                     <div class="navbar pull-left">
                         <a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
@@ -154,10 +154,10 @@ echo $option
                         <jdoc:include type="modules" name="position-1" style="none" />
                     </div>
                 </nav>
-<?php endif; ?>
+            <?php endif; ?>
             <jdoc:include type="modules" name="banner" style="xhtml" />
             <div class="row-fluid">
-            <?php if ($position8ModuleCount) : ?>
+                <?php if ($position8ModuleCount) : ?>
                     <!-- Begin Sidebar -->
                     <div id="sidebar" class="span3">
                         <div class="sidebar-nav">
@@ -165,7 +165,7 @@ echo $option
                         </div>
                     </div>
                     <!-- End Sidebar -->
-<?php endif; ?>
+                <?php endif; ?>
                 <main id="content" role="main" class="<?php echo $span; ?>">
                     <!-- Begin Content -->
                     <jdoc:include type="modules" name="position-3" style="xhtml" />
@@ -181,7 +181,7 @@ echo $option
                         <jdoc:include type="modules" name="position-7" style="well" />
                         <!-- End Right Sidebar -->
                     </div>
-<?php endif; ?>
+                <?php endif; ?>
             </div>
         </div>
     </div>
@@ -192,7 +192,7 @@ echo $option
             <jdoc:include type="modules" name="footer" style="none" />
             <p class="pull-right">
                 <a href="#top" id="back-top">
-                <?php echo JText::_('TPL_PROTOSTAR_BACKTOTOP'); ?>
+                    <?php echo JText::_('TPL_PROTOSTAR_BACKTOTOP'); ?>
                 </a>
             </p>
             <p>

@@ -194,6 +194,7 @@ body {
     line-height: 18px;
     color: #333;
     background-color: #fff;
+    /*width: 100%;*/
 }
 a {
     color: #005e8d;
@@ -605,7 +606,7 @@ h6 {
     font-weight: bold;
     line-height: 18px;
     color: inherit;
-    text-rendering: optimizelegibility;
+    /*text-rendering: optimizelegibility;*/
 }
 h1 small,
 h2 small,
@@ -5288,12 +5289,12 @@ a.badge:focus {
         min-height: 1px;
         margin-left: 20px;
     }
-    .container,
-    .navbar-static-top .container,
+    .container
+/*    .navbar-static-top .container,
     .navbar-fixed-top .container,
-    .navbar-fixed-bottom .container {
+    .navbar-fixed-bottom .container*/ {
         /*width: 940px;*/
-        width: 100%;
+        /*width: 100%;*/
 
     }
     .span12 {
@@ -5383,14 +5384,15 @@ a.badge:focus {
     }
     .row-fluid [class*="span"] {
         display: block;
+        border: 1px #0088CC dashed;
         width: 62%;
         min-height: 28px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         float: left;
-        margin-left: 2.127659574%;
-        *margin-left: 2.0744680846383%;
+        margin-left: 20px;
+        /**margin-left: 2.0744680846383%;*/
     }
     .row-fluid [class*="span"]:first-child {
         margin-left: 0;
@@ -5436,8 +5438,8 @@ a.badge:focus {
         *width: 31.861702124638%;
     }
     .row-fluid .span3 {
-        width: 23.404255317%;
-        *width: 23.351063827638%;
+        width: 25%;
+        /**width: 23.351063827638%;*/
     }
     .row-fluid .span2 {
         width: 14.89361702%;
@@ -6046,7 +6048,7 @@ hr.hr-condensed {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
+    /*user-select: none;*/
 }
 .radio.btn-group > label:first-of-type {
     margin-left: 0;
@@ -7210,6 +7212,10 @@ body.site.fluid {
     -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
     -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
     box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
+    /*width: 95%;*/
+    left: 0px;
+    right: 0px;
+        
 }
 .well .page-header {
     margin: 0px 0px 5px 0px;
@@ -7368,7 +7374,7 @@ figcaption {
     -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     -webkit-background-clip: padding-box;
-    -moz-background-clip: padding;
+    /*-moz-background-clip: padding;*/
     background-clip: padding-box;
 }
 .navigation .nav-child.pull-right {
