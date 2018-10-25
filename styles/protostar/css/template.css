@@ -1982,7 +1982,7 @@ table th[class*="span"],
     -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     -webkit-background-clip: padding-box;
-    -moz-background-clip: padding;
+    /*-moz-background-clip: padding;*/
     background-clip: padding-box;
 }
 .dropdown-menu.pull-right {
@@ -2222,7 +2222,7 @@ table th[class*="span"],
     filter: alpha(opacity=40);
 }
 button.close {
-    padding: 3;
+    padding: 3px;
     cursor: pointer;
     background: transparent;
     border: 0;
@@ -4097,7 +4097,7 @@ input[type="submit"].btn.btn-mini {
     text-align: left;
     background-color: #fff;
     -webkit-background-clip: padding-box;
-    -moz-background-clip: padding;
+    /*-moz-background-clip: padding;*/
     background-clip: padding-box;
     border: 1px solid #ccc;
     border: 1px solid rgba(0,0,0,0.2);
