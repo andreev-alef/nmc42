@@ -1,3 +1,5 @@
+@import "fonts.css";
+
 article,
 aside,
 details,
@@ -7212,7 +7214,7 @@ body.site.fluid {
     -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
     -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
     box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
-    /*width: 95%;*/
+    width: 100%;
     left: 0px;
     right: 0px;
         
