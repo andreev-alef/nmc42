@@ -9,13 +9,13 @@ and open the template in the editor.
 */
 body {
   background-color: #fff;
-  font-family: 'PT Sans';
+  font-family: 'PT Mono';
   font-size: 12pt;
   /*margin: 0;*/
 }
 .body{
     /*width: 100%;*/
-    width: 1440px;
-    border: 1px #aaa solid;
+    width: 100%;
+    /*border: 1px #aaa solid;*/
 }
 /*# sourceMappingURL=main.css.map */

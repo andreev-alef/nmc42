@@ -15,7 +15,13 @@ and open the template in the editor.
         <div class="body">
             <?php
             print '<hr />Alef<hr/>' . getdate()[0];
-            ?>            
+            ?>
+            <hr />
+            <?php
+            
+            print strftime("%d%m%Y%H%M%S");
+            ?>
+            
         </div>
     </body>
 </html>
