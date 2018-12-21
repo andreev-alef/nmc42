@@ -143,3 +143,19 @@ and open the template in the editor.
     font-family: 'YanoneKaffeesatz Regular';
     src:    url('../fonts/YanoneKaffeesatz-Regular.woff');
 } 
+@font-face{
+    font-family: 'NotoSerif Bold';
+    src:    url('../fonts/NotoSerif-Bold.woff');
+}
+@font-face{
+    font-family: 'NotoSerif BoldItalic';
+    src:    url('../fonts/NotoSerif-BoldItalic.woff');
+} 
+@font-face{
+    font-family: 'NotoSerif Italic';
+    src:    url('../fonts/NotoSerif-Italic.woff');
+} 
+@font-face{
+    font-family: 'NotoSerif Regular';
+    src:    url('../fonts/NotoSerif-Regular.woff');
+} 
