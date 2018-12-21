@@ -23,9 +23,9 @@ audio:not([controls]) {
     display: none;
 }
 html {
-/*    font-size: 100%;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;*/
+    /*    font-size: 100%;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;*/
 }
 a:focus {
     outline: thin dotted #333;
@@ -190,7 +190,7 @@ textarea {
     box-sizing: border-box;
 }
 body {
-    /*margin: 0;*/
+    margin: 0;
     font-family: 'PT Sans';
     font-size: 13pt;
     line-height: 18px;
@@ -604,10 +604,10 @@ h4,
 h5,
 h6 {
     margin: 9px 0;
-    font-family: inherit;
+    /*font-family: inherit;*/
     font-weight: bold;
     line-height: 18px;
-    color: inherit;
+    /*color: inherit;*/
     /*text-rendering: optimizelegibility;*/
 }
 h1 small,
@@ -5292,9 +5292,9 @@ a.badge:focus {
         margin-left: 20px;
     }
     .container
-/*    .navbar-static-top .container,
-    .navbar-fixed-top .container,
-    .navbar-fixed-bottom .container*/ {
+    /*    .navbar-static-top .container,
+        .navbar-fixed-top .container,
+        .navbar-fixed-bottom .container*/ {
         /*width: 940px;*/
         /*width: 100%;*/
 
@@ -7154,27 +7154,33 @@ body.site.fluid {
     font-size: 40px;
     font-size: calc(16px + 2.16vw);
     line-height: 48px;
-    font-weight: bold;
+    /*font-weight: bold;*/
+    font-family: 'Oswald-Light','YanoneKaffeesatz Regular','PT Sans Bold';
 }
 @media (min-width: 1024px) {
     .site-title {
-        font-size: 55px;
-        font-family: 'PT Sans Bold';
+        font-size: 75px;
     }
 }
 .brand {
-    color: #001a27;
-    -webkit-transition: color .5s linear;
-    -moz-transition: color .5s linear;
-    -o-transition: color .5s linear;
-    transition: color .5s linear;
+    /*color: #001a27;*/
+    color: #FFF14C;
+    margin-top: 40px;
+    padding-left: 30px;
+    /*    font-family: 'YanoneKaffeesatz Regular';*/
+    /*    -webkit-transition: color .5s linear;
+        -moz-transition: color .5s linear;
+        -o-transition: color .5s linear;
+        transition: color .5s linear;*/
 }
 .brand:hover {
-    color: #005e8d;
+    /*color: #005e8d;*/
     text-decoration: none;
 }
 .header {
     margin-bottom: 10px;
+    height: 120px;
+    background-color: #1772B7;
 }
 .header .finder {
     margin-top: 14px;
@@ -7218,7 +7224,7 @@ body.site.fluid {
     width: 100%;
     left: 0px;
     right: 0px;
-        
+
 }
 .well .page-header {
     margin: 0px 0px 5px 0px;
@@ -7285,6 +7291,12 @@ p {
     left: initial;
     right: 0;
 }
+
+.item-page{
+    font-family: 'NotoSerif Regular';
+    font-size: 10pt;
+}
+
 .article-index {
     margin: 0 0 10px 10px;
 }

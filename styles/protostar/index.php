@@ -45,13 +45,13 @@ JHtml::_('script', 'jui/html5.js', array('version' => 'auto', 'relative' => true
 JHtml::_('stylesheet', 'template.css', array('version' => 'auto', 'relative' => true));
 
 // Use of Google Font
-if ($this->params->get('googleFont')) {
-    JHtml::_('stylesheet', 'https://fonts.googleapis.com/css?family=' . $this->params->get('googleFontName'));
-    $this->addStyleDeclaration("
-	h1, h2, h3, h4, h5, h6, .site-title {
-		font-family: '" . str_replace('+', ' ', $this->params->get('googleFontName')) . "', sans-serif;
-	}");
-}
+//if ($this->params->get('googleFont')) {
+//    JHtml::_('stylesheet', 'https://fonts.googleapis.com/css?family=' . $this->params->get('googleFontName'));
+//    $this->addStyleDeclaration("
+//	h1, h2, h3, h4, h5, h6, .site-title {
+//		font-family: '" . str_replace('+', ' ', $this->params->get('googleFontName')) . "', sans-serif;
+//	}");
+//}
 
 // Template color
 if ($this->params->get('templateColor')) {
