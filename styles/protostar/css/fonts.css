@@ -91,3 +91,55 @@ and open the template in the editor.
     font-family: 'PT Sans NarrowBold';
     src:    url('../fonts/pt_sans_narrow_bold.woff');
 } 
+@font-face{
+    font-family: 'OpenSans Bold';
+    src:    url('../fonts/OpenSans-Bold.woff');
+} 
+@font-face{
+    font-family: 'OpenSans BoldItalic';
+    src:    url('../fonts/OpenSans-BoldItalic.woff');
+} 
+@font-face{
+    font-family: 'OpenSans ExtraBold';
+    src:    url('../fonts/OpenSans-ExtraBold.woff');
+} 
+@font-face{
+    font-family: 'OpenSans ExtraBoldItalic';
+    src:    url('../fonts/OpenSans-ExtraBoldItalic.woff');
+} 
+@font-face{
+    font-family: 'OpenSans Italic';
+    src:    url('../fonts/OpenSans-Italic.woff');
+} 
+@font-face{
+    font-family: 'OpenSans Light';
+    src:    url('../fonts/OpenSans-Light.woff');
+} 
+@font-face{
+    font-family: 'OpenSans LightItalic';
+    src:    url('../fonts/OpenSans-LightItalic.woff');
+} 
+@font-face{
+    font-family: 'OpenSans Regular';
+    src:    url('../fonts/OpenSans-Regular.woff');
+} 
+@font-face{
+    font-family: 'OpenSans SemiBold';
+    src:    url('../fonts/OpenSans-SemiBold.woff');
+} 
+@font-face{
+    font-family: 'YanoneKaffeesatz Bold';
+    src:    url('../fonts/YanoneKaffeesatz-Bold.woff');
+} 
+@font-face{
+    font-family: 'YanoneKaffeesatz ExtraLight';
+    src:    url('../fonts/YanoneKaffeesatz-ExtraLight.woff');
+} 
+@font-face{
+    font-family: 'YanoneKaffeesatz Light';
+    src:    url('../fonts/YanoneKaffeesatz-Light.woff');
+} 
+@font-face{
+    font-family: 'YanoneKaffeesatz Regular';
+    src:    url('../fonts/YanoneKaffeesatz-Regular.woff');
+} 
