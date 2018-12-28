@@ -659,6 +659,8 @@ h4 small {
     padding-bottom: 8px;
     margin: 18px 0 27px;
     border-bottom: 1px solid #eee;
+    font-family: 'PT Sans NarrowBold';
+    font-size: 13pt;
 }
 ul,
 ol {
@@ -2896,11 +2898,16 @@ input[type="submit"].btn.btn-mini {
 }
 .nav > li > a {
     display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 7px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
     text-decoration: none;
-    background-color: #eee;
+    color: #1C486B;
+    background-color: #FFDE7C;
+    /*background-color: #eee;*/
 }
 .nav > li > a > img {
     max-width: none;
@@ -5386,7 +5393,8 @@ a.badge:focus {
     }
     .row-fluid [class*="span"] {
         display: block;
-        border: 1px #0088CC dashed;
+        border-width: 1px;
+        border-color: transparent;
         width: 62%;
         min-height: 28px;
         -webkit-box-sizing: border-box;
@@ -5397,7 +5405,7 @@ a.badge:focus {
         /**margin-left: 2.0744680846383%;*/
     }
     .row-fluid [class*="span"]:first-child {
-        margin-left: 0;
+        margin-left: 15px;
     }
     .row-fluid .controls-row [class*="span"] + [class*="span"] {
         margin-left: 2.127659574%;
@@ -7243,7 +7251,7 @@ h1 {
     line-height: 28px;
 }
 h2 {
-    font-size: 22px;
+    font-size: 26px;
     line-height: 24px;
 }
 h3 {
@@ -7293,8 +7301,9 @@ p {
 }
 
 .item-page{
-    font-family: 'NotoSerif Regular';
-    font-size: 10pt;
+font-family: 'PT Sans', 'NotoSerif Regular';
+font-size: 10pt;
+width: 720px;
 }
 
 .article-index {
@@ -7788,4 +7797,8 @@ ul.manager .height-50 .icon-folder-2 {
 }
 .rtl .finder-selects {
     margin: 0 0 15px 15px;
+}
+
+.sidebar-nav{
+    font-family: 'PT Sans NarrowBold', 'PT Sans Narrow',  'OpenSans Light';
 }
