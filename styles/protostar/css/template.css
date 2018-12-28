@@ -7304,6 +7304,7 @@ p {
 font-family: 'PT Sans', 'NotoSerif Regular';
 font-size: 10pt;
 width: 720px;
+text-align: justify;
 }
 
 .article-index {
