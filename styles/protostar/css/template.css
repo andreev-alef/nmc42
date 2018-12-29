@@ -2037,6 +2037,9 @@ table th[class*="span"],
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff005e8d', endColorstr='#ff004c73', GradientType=0);
 }
+
+
+
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
@@ -2908,6 +2911,9 @@ input[type="submit"].btn.btn-mini {
     color: #1C486B;
     background-color: #FFDE7C;
     /*background-color: #eee;*/
+}
+.nav.menu > .active{
+    background-color: #FFDE7C;
 }
 .nav > li > a > img {
     max-width: none;
@@ -7301,10 +7307,10 @@ p {
 }
 
 .item-page{
-font-family: 'PT Sans', 'NotoSerif Regular';
-font-size: 10pt;
-width: 720px;
-text-align: justify;
+    font-family: 'PT Sans', 'NotoSerif Regular';
+    font-size: 10pt;
+    width: 720px;
+    text-align: justify;
 }
 
 .article-index {

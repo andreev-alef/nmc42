@@ -159,3 +159,72 @@ and open the template in the editor.
     font-family: 'NotoSerif Regular';
     src:    url('../fonts/NotoSerif-Regular.woff');
 } 
+
+@font-face{
+    font-family: 'Exo2-Black';
+    src:    url('../fonts/Exo2-Black.woff');
+}
+@font-face{
+    font-family: 'Exo2-BlackItalic';
+    src:    url('../fonts/Exo2-BlackItalic.woff');
+}
+@font-face{
+    font-family: 'Exo2-Bold';
+    src:    url('../fonts/Exo2-Bold.woff');
+}
+@font-face{
+    font-family: 'Exo2-BoldItalic';
+    src:    url('../fonts/Exo2-BoldItalic.woff');
+}
+@font-face{
+    font-family: 'Exo2-ExtraBold';
+    src:    url('../fonts/Exo2-ExtraBold.woff');
+}
+@font-face{
+    font-family: 'Exo2-ExtraBoldItalic';
+    src:    url('../fonts/Exo2-ExtraBoldItalic.woff');
+}
+@font-face{
+    font-family: 'Exo2-ExtraLight';
+    src:    url('../fonts/Exo2-ExtraLight.woff');
+}
+@font-face{
+    font-family: 'Exo2-ExtraLightItalic';
+    src:    url('../fonts/Exo2-ExtraLightItalic.woff');
+}
+@font-face{
+    font-family: 'Exo2-Light';
+    src:    url('../fonts/Exo2-Light.woff');
+}
+@font-face{
+    font-family: 'Exo2-LightItalic';
+    src:    url('../fonts/Exo2-LightItalic.woff');
+}
+@font-face{
+    font-family: 'Exo2-Medium';
+    src:    url('../fonts/Exo2-Medium.woff');
+}
+@font-face{
+    font-family: 'Exo2-MediumItalic';
+    src:    url('../fonts/Exo2-MediumItalic.woff');
+}
+@font-face{
+    font-family: 'Exo2-Regular';
+    src:    url('../fonts/Exo2-Regular.woff');
+}
+@font-face{
+    font-family: 'Exo2-SemiBold';
+    src:    url('../fonts/Exo2-SemiBold.woff');
+}
+@font-face{
+    font-family: 'Exo2-SemiBoldItalic';
+    src:    url('../fonts/Exo2-SemiBoldItalic.woff');
+}
+@font-face{
+    font-family: 'Exo2-Thin';
+    src:    url('../fonts/Exo2-Thin.woff');
+}
+@font-face{
+    font-family: 'Exo2-ThinItalic';
+    src:    url('../fonts/Exo2-ThinItalic.woff');
+}
