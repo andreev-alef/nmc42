@@ -2907,10 +2907,10 @@ input[type="submit"].btn.btn-mini {
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
-    text-decoration: none;
-    color: #1C486B;
-    background-color: #FFDE7C;
-    /*background-color: #eee;*/
+    text-decoration: underline;
+    /*color: #1C486B;*/
+    /*background-color: #FFDE7C;*/
+    background-color: #eee;
 }
 .nav.menu > .active{
     background-color: #FFDE7C;
@@ -7307,10 +7307,10 @@ p {
 }
 
 .item-page{
-    font-family: 'PT Sans', 'NotoSerif Regular';
+    font-family: 'Exo2-Regular', 'PT Sans', 'NotoSerif Regular';
     font-size: 10pt;
     width: 720px;
-    text-align: justify;
+    text-align: left;
 }
 
 .article-index {
@@ -7807,5 +7807,5 @@ ul.manager .height-50 .icon-folder-2 {
 }
 
 .sidebar-nav{
-    font-family: 'PT Sans NarrowBold', 'PT Sans Narrow',  'OpenSans Light';
+    font-family: 'Exo2-Regular','PT Sans NarrowBold', 'PT Sans Narrow',  'OpenSans Light';
 }
